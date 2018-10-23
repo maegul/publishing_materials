@@ -243,7 +243,7 @@ With markdown, you just type.
 * Jupyter notebooks allow you to use markdown and latex maths directly in them, as well as the other coding elements
 * 
 
-[test](.other_documents/test.html)
+[test](other_documents/test.html)
 
 Jupyter Notebook
 
