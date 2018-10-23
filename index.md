@@ -16,17 +16,10 @@
 		1. [Downloading Files](#downloading-files)
 	1. [Documents for Web-pages Pt II \(HTML, Jupyter, RStudio\)](#documents-for-web-pages-pt-ii-html-jupyter-rstudio)
 		1. [Jupyter](#jupyter)
-	1. [Linking to Data and other Files](#linking-to-data-and-other-files)
-1. [Zenodo DOI and Archiving](#zenodo-doi-and-archiving)
-	1. [MeetUp Plan](#meetup-plan)
-	1. [General Idea](#general-idea)
-	1. [GitHub + Markdown](#github--markdown)
-	1. [Figshare](#figshare)
-	1. [Python, R and Matlab](#python-r-and-matlab)
-		1. [Python](#python)
-		1. [R](#r)
+		1. [RStudio](#rstudio)
 		1. [Matlab](#matlab)
-	1. [Going Further](#going-further)
+1. [Zenodo DOI and Archiving](#zenodo-doi-and-archiving)
+1. [Large Data Files with Figshare](#large-data-files-with-figshare)
 
 <!-- /MarkdownTOC -->
 
@@ -205,7 +198,6 @@ With markdown, you just type.
 
 **creates these links:**
 
-
 [Here is a link to a Jupyter Notebook in HTML format](./other_documents/MyNotebook.html)
 
 ### Downloading Files
@@ -240,135 +232,73 @@ With markdown, you just type.
 
 ### Jupyter
 
-* Jupyter notebooks allow you to use markdown and latex maths directly in them, as well as the other coding elements
-* 
 
-[test](other_documents/test.html)
-
-Jupyter Notebook
-
-Jupyter Export
-
-Reveal?
+* You can export any notebook as an HTML file.
+* Put this file into your GitHub Repo
+	* If you want to link to this file from your main page, simply do so, probably using markdown
+	* **NOTE:** If you want this notebook as an html file to be your main page, you will have to change its file name to `index.html`.	 
 
 
+**Notes**
 
-## Linking to Data and other Files
 
-GitHub link of webpage
+* GitHub will render Jupyter Notebook files directly, when viewed directly through the GitHub webpage.
+* Jupyter notebooks allow you to use markdown, as well as the other coding elements and embedding tricks, directly in them.  You can get a rich document with this.
+* There's also a powerful tool for converting notebooks to other formats: `jupyter nbconvert`
+	* [Webpage and Documentation](https://nbconvert.readthedocs.io/en/latest/)
+	* *example:* `nbconvert --to html --template full my_notebook.ipynb`
+	* Other formats include:
+		* PDF
+		* Markdown
+		* Slide show (also see RISE)
 
-Linking directly to files
 
-FigShare for big data
 
-[what](https://raw.githubusercontent.com/maegul/configs/master/.bash_profile)
+### RStudio
+
+* RStudio Tools [webpage with tutorial and docs](http://rmarkdown.rstudio.com/index.html)
+* Process:
+	* Knitr + Code insertions -> HTML files
+* Other Formats:
+	* Notebook (?)
+	* Slides and other Magic (?!)
+
+
+[RMarkdown.md File](other_documents/MyRMarkdown.Rmd)
+
+[HTML webpage produced with KnitR](other_documents/MyRMarkdown.html)
+
+
+
+### Matlab
+
+* [Publish Matlab code](https://au.mathworks.com/help/matlab/matlab_prog/publishing-matlab-code.html)
+* [Markup language](https://au.mathworks.com/help/matlab/matlab_prog/marking-up-matlab-comments-for-publishing.html)
 
 
 # Zenodo DOI and Archiving
 
+**Make your repository citable**
+
+[GitHub Guide to making your code citable](https://guides.github.com/activities/citable-code/)
+
+[Zenodo HomePage](https://zenodo.org)
+
+* The GitHub Guide outlines the steps involved
+* The process involves: 
+	* telling Zenodo to create an archived copy of your repository
+	* Telling Zenodo to create a citable DOI for your repository.
 
 
-## MeetUp Plan
-* GitHub
-    * Repo
-    * Adding files etc
-    * Plug git integration
-* Markdown
-    * Quick example + render
-    * Quick example + 
-    	* GitHub pages + 
-    	* themes
-    * General markdown syntax
-    	* github flavour
-    	* linking to other pages
-    	* index and readme file names
-* HTML
-	* jupyter notebooks
-		* as themselves 
-		HTML
-	* RStudio RMarkDown and BookDown
+# Large Data Files with Figshare
 
-
-## General Idea
-* Focus on basics of github pages and markdown.
-* Show possibility of getting more complex with programming language specific possibilities, which may not be appropriate for OpenRes, but for exploration later on.
-
-
-## GitHub + Markdown
-
-[Good Cheat SHeet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-[GitHub Guide (incl GHM)](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
-
-[Original Markdown Cheat Sheet](https://daringfireball.net/projects/markdown/basics)
-
-This is some text
-And this is some more.
-
-
-[putting a repo online](https://maegul.github.io/DataViz_web_plotly_cheat_sheet/github_pages_gif.html)
-
-* GitHub Basics
-	* Account
-	* Repo
-		* readme (what this is/contains)
-		* data (making sure credit/source is included)
-		* code (commented)
-		* explanation (written text, containing motivation for project, analysis/interpretation of code results and any inferences/conclusions)
-	* Uploading files
-		* Show git versioning
-	* Store and Share Code
-		* Forking, downloading, Commenting through issues
-* Markdown 
-	* Basic README.md example + Basic Markdown syntax
-		* Heading; dot points; links; images
-	* github flavoured markdown -> syntax highlighting
-	* Using github pages
-		* Settings to make github page
-		* appropriate file names - index / readme
-		* Themes (Jekyll)
-		* linking to other pages
-
-
-## Figshare
-* Basic introduction to figshare
-	* For larger data (and larger file sizes)
-	* Give data a DOI (useful for citations)
-	* Free
-	* Unimelb account is better
+* For larger data (and larger file sizes)
+	* Up to 100GB storage, and max file size ~ 10-20GB
+* Similar to Zenodo, in that you create a citable / published snapshot of data
+* Give data a DOI (useful for citations)
 
 * [Web Page](https://figshare.com)
 * [Melbourne Figshare](https://melbourne.figshare.com)
 
 
-## Python, R and Matlab
-* Basic idea that markdown, as above, supported and used by these other coding environments too.
-* Or, taking it further, can generate a file, such as HTML, that can live on github and be easily viewed.
 
-
-### Python
-* Save as HTML / Rendered on GitHub 
-	* NBViewer as an alternative.
-* [nbconvert](https://nbconvert.readthedocs.io/en/latest/index.html)
-	* HTML
-	* HTML + Template (Plugins)
-	* slides 
-
-
-### R
-* RStudio Tools [webpage with tutorial and docs](http://rmarkdown.rstudio.com/index.html)
-* RMarkdown
-* Knitr + Code insertions -> HTML files
-* Notebook (?)
-* Slides and other Magic (?!)
-
-
-### Matlab
-* [Publish Matlab code](https://au.mathworks.com/help/matlab/matlab_prog/publishing-matlab-code.html)
-* [Markup language](https://au.mathworks.com/help/matlab/matlab_prog/marking-up-matlab-comments-for-publishing.html)
-
-
-## Going Further
-* For Demo purposes
-* Dashboards (Shiny, Dash, HTML widget and plug ins)
-* Javascript and web dev
