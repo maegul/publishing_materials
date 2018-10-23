@@ -15,6 +15,7 @@
 		1. [Multiple Pages in your webpage](#multiple-pages-in-your-webpage)
 		1. [Downloading Files](#downloading-files)
 	1. [Documents for Web-pages Pt II \(HTML, Jupyter, RStudio\)](#documents-for-web-pages-pt-ii-html-jupyter-rstudio)
+		1. [Jupyter](#jupyter)
 	1. [Linking to Data and other Files](#linking-to-data-and-other-files)
 1. [Zenodo DOI and Archiving](#zenodo-doi-and-archiving)
 	1. [MeetUp Plan](#meetup-plan)
@@ -229,10 +230,20 @@ With markdown, you just type.
 	* Ordinarily, GitHub would make the index.md file as a webpage.
 	* To download the raw file, a service that GitHub provides, which allows, must be used.
 	* You can see from the URL how you get the raw content for any file.  If you want to get this URL for any file, navigate to that file in the GitHub web-page, and fine in the top right a `Raw` button, which will take you to this URL.
+	* The Download link will take you directly to the raw format of the file, which can then be saved by your browser.
 
 
 
 ## Documents for Web-pages Pt II (HTML, Jupyter, RStudio)
+
+* HTML files can be generated from Jupyter Notebooks and RStudio
+
+### Jupyter
+
+* Jupyter notebooks allow you to use markdown and latex maths directly in them, as well as the other coding elements
+* 
+
+[test](.other_documents/test.html)
 
 Jupyter Notebook
 
