@@ -1,5 +1,5 @@
 
-# Publishing Research as Online with GitHub
+# Publishing Research Online as Webpages with GitHub
 
 <!-- MarkdownTOC -->
 
