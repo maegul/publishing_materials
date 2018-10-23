@@ -13,6 +13,7 @@
 		1. [Basic Markdown Syntax Example](#basic-markdown-syntax-example)
 		1. [Cheat Sheets](#cheat-sheets)
 		1. [Multiple Pages in your webpage](#multiple-pages-in-your-webpage)
+		1. [Downloading Files](#downloading-files)
 	1. [Documents for Web-pages Pt II \(HTML, Jupyter, RStudio\)](#documents-for-web-pages-pt-ii-html-jupyter-rstudio)
 	1. [Linking to Data and other Files](#linking-to-data-and-other-files)
 1. [Zenodo DOI and Archiving](#zenodo-doi-and-archiving)
@@ -193,16 +194,29 @@ With markdown, you just type.
 **So, the following Markdown ...**
 
 ```markdown
-[Here is a link to a Jupyter Notebook in raw `ipynb` format](./other_documents/MyNotebook.ipynb)
-
 [Here is a link to a Jupyter Notebook in HTML format](./other_documents/MyNotebook.html)
 ```
 
 **creates these links:**
 
-[Here is a link to a Jupyter Notebook in raw `ipynb` format](./other_documents/MyNotebook.ipynb)
 
 [Here is a link to a Jupyter Notebook in HTML format](./other_documents/MyNotebook.html)
+
+### Downloading Files
+
+* Links to files not appropriate to be made into web pages will simply download the files.
+	* Generally, if you wish for users to download your files, a link back to the GitHub repository the web-page originates from will usually be good enough, as it is easy to download single files, or the whole repository.
+	* **Nonetheless**, you may wish for a user to download a specific file directly from the webpage.
+
+```markdown
+[Download a Jupyter Notebook in raw `ipynb` format](./other_documents/MyNotebook.ipynb)
+
+[Download the markdown that made this web page](./index.md)
+```
+
+[Download a Jupyter Notebook in raw `ipynb` format](./other_documents/MyNotebook.ipynb)
+
+[Download the markdown that made this web page](./index.md)
 
 
 
