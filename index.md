@@ -94,8 +94,13 @@
 	* **Markdown** is a simple format and syntax, makes for quick and easy document and webpage writing.
 	* **HTML** is a powerful way of writing webpages.  It is the *raw code of the web* really, and so, if you want to learn it, you will be able to make anything you want on the web.
 	* Most of the time, you'll either use markdown directly, or convert markdown into HTML so that you won't have to ever learn it.
-* **Jupyter Notebooks**
-	* GitHub will display a notebook file (`.ipynb`) automatically for you.  Handy!
+	* **Jupyter Notebooks**
+		* GitHub will display a notebook file (`.ipynb`) automatically for you.  Handy!
+		* This only happens when viewing the file from within the GitHub webpage, not the webpage that it makes for you.
+* Document File Name
+	* The file name that GitHub is looking for is **index**.
+	* You must have either an `index.md` file or a `index.html` file.  This will be used to create your web page.
+	* An alternative is a `README.md`, which will be used if there is no `index.md`	
 
 
 ## Documents for Web-pages Pt I (Markdown)
@@ -217,6 +222,13 @@ With markdown, you just type.
 [Download a Jupyter Notebook in raw `ipynb` format](./other_documents/MyNotebook.ipynb)
 
 [Download the markdown that made this web page](https://raw.githubusercontent.com/maegul/publishing_materials/master/index.md)
+
+**Notes**
+
+* Note, how the link to the `index.md` file was done.
+	* Ordinarily, GitHub would make the index.md file as a webpage.
+	* To download the raw file, a service that GitHub provides, which allows, must be used.
+	* You can see from the URL how you get the raw content for any file.  If you want to get this URL for any file, navigate to that file in the GitHub web-page, and fine in the top right a `Raw` button, which will take you to this URL.
 
 
 
