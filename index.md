@@ -211,12 +211,12 @@ With markdown, you just type.
 ```markdown
 [Download a Jupyter Notebook in raw `ipynb` format](./other_documents/MyNotebook.ipynb)
 
-[Download the markdown that made this web page](./index.md)
+[Download the markdown that made this web page](https://raw.githubusercontent.com/maegul/publishing_materials/master/index.md)
 ```
 
 [Download a Jupyter Notebook in raw `ipynb` format](./other_documents/MyNotebook.ipynb)
 
-[Download the markdown that made this web page](./index.md)
+[Download the markdown that made this web page](https://raw.githubusercontent.com/maegul/publishing_materials/master/index.md)
 
 
 
