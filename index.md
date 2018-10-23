@@ -78,6 +78,7 @@
 	* If you are going to use git with this, **do not add the readme file, as it will cause problems later**.
 
 
+[putting a repo online](other_documents/making_a_repo.gif)
 
 
 ## Documents for Web-pages Introduction
