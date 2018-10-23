@@ -268,7 +268,7 @@ With markdown, you just type.
 
 [HTML webpage produced with KnitR](other_documents/MyRMarkdown.html)
 
-
+![](other_documents/RMarkdown.gif)
 
 ### Matlab
 
