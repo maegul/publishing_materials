@@ -16,7 +16,9 @@
 		1. [Downloading Files](#downloading-files)
 	1. [Documents for Web-pages Pt II \(HTML, Jupyter, RStudio\)](#documents-for-web-pages-pt-ii-html-jupyter-rstudio)
 		1. [Jupyter](#jupyter)
+			1. [Going Further - Pelican](#going-further---pelican)
 		1. [RStudio](#rstudio)
+			1. [Going Further - Bookdown](#going-further---bookdown)
 		1. [Matlab](#matlab)
 1. [Zenodo DOI and Archiving](#zenodo-doi-and-archiving)
 1. [Large Data Files with Figshare](#large-data-files-with-figshare)
@@ -266,6 +268,13 @@ With markdown, you just type.
 [See the HTML webpage produced from the above notebook](other_documents/MyNotebook.html)
 
 
+#### Going Further - Pelican
+
+`Pelican` is a library in `python` that gives the ability to make more complex webpages by still only writing in markdown.  Using the libraries features and templates allows you to more flexibly control the appearance and layout of your webpage.  Its main use is making blogs, but can be easily used to create normal webpages.
+
+[Pelican Documentation](http://docs.getpelican.com/en/stable/)
+
+
 ### RStudio
 
 **Animation of Producing HTML from RMarkdown**
@@ -284,6 +293,14 @@ With markdown, you just type.
 
 [See the HTML webpage produced with the above file and KnitR](other_documents/MyRMarkdown.html)
 
+
+#### Going Further - Bookdown
+
+`Bookdown` is a tool or library in `R` that gives you more power in creating webpages from markdown files.
+
+There is more to set up and manage, but the core content is still written in markdown, and you get to produce more complex and flexible webpages.
+
+[Bookdown HomePage](https://bookdown.org)
 
 
 ### Matlab
