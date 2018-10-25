@@ -83,8 +83,10 @@
 
 ## Documents for Web-pages Introduction
 
+**Writing Markdown**
 ![](other_documents/Markdown_demo.gif)
 
+**Turning Markdown into a webpage on GitHub**
 ![](other_documents/Markdown_ghPages_demo.gif)
 
 * To make a webpage, **your file needs to an appropriate kind of document**
