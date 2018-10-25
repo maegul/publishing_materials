@@ -61,7 +61,7 @@
 
 **Basic Idea**
 
-![](other_documents/GH_repo.fig)
+![](other_documents/GH_repo.gif)
 
 
 * A repository is an online folder
@@ -83,9 +83,9 @@
 
 ## Documents for Web-pages Introduction
 
-![](Markdown_demo.gif)
+![](other_documents/Markdown_demo.gif)
 
-![](Markdown_ghPages_demo.gif)
+![](other_documents/Markdown_ghPages_demo.gif)
 
 * To make a webpage, **your file needs to an appropriate kind of document**
 * Two kinds of document: **Markdown** and **HTML**.
@@ -237,7 +237,7 @@ With markdown, you just type.
 
 **Animation of Producing HTML from Jupyter Notebook**
 
-![](Jupyter_HTML.gif)
+![](other_documents/Jupyter_HTML.gif)
 
 * You can export any notebook as an HTML file.
 * Put this file into your GitHub Repo
