@@ -10,7 +10,7 @@
 	1. [GitHub Repositories](#github-repositories)
 	1. [Documents for Web-pages Introduction](#documents-for-web-pages-introduction)
 	1. [Documents for Web-pages Pt I \(Markdown\)](#documents-for-web-pages-pt-i-markdown)
-		1. [Basic Markdown Syntax Example](#basic-markdown-syntax-example)
+		1. [Basic Markdown Syntax Examples](#basic-markdown-syntax-examples)
 		1. [Cheat Sheets](#cheat-sheets)
 		1. [Multiple Pages in your webpage](#multiple-pages-in-your-webpage)
 		1. [Downloading Files](#downloading-files)
@@ -61,7 +61,8 @@
 
 **Basic Idea**
 
-<!-- Gif of creating a Repo and adding files and editing -->
+![](other_documents/GH_repo.fig)
+
 
 * A repository is an online folder
 	* GitHub enables you to exercise version control with git on this folder, if you wish.
@@ -78,12 +79,14 @@
 	* If you are going to use git with this, **do not add the readme file, as it will cause problems later**.
 
 
-[putting a repo online](other_documents/making_a_repo.gif)
 
 
 ## Documents for Web-pages Introduction
 
-<!-- gif of writing markdown, making webpage and changing theme (don't show webpage) -->
+![](Markdown_demo.gif)
+
+![](Markdown_ghPages_demo.gif)
+
 * To make a webpage, **your file needs to an appropriate kind of document**
 * Two kinds of document: **Markdown** and **HTML**.
 	* **Markdown** is a simple format and syntax, makes for quick and easy document and webpage writing.
@@ -100,10 +103,9 @@
 
 ## Documents for Web-pages Pt I (Markdown)
 
-<!-- gif of writing quick markdown, making webpage and changing theme (don't show webpage) -->
 
 
-### Basic Markdown Syntax Example
+### Basic Markdown Syntax Examples
 
 **Examples of Markdown**
 
@@ -159,7 +161,7 @@ With markdown, you just type.
 `if code == True: render(code)`
 ```
 
-[This is a link](wwww.google.com)
+[This is a link](http://www.google.com)
 
 ![](portrait.png "This is a caption??")
 
@@ -233,6 +235,9 @@ With markdown, you just type.
 
 ### Jupyter
 
+**Animation of Producing HTML from Jupyter Notebook**
+
+![](Jupyter_HTML.gif)
 
 * You can export any notebook as an HTML file.
 * Put this file into your GitHub Repo
@@ -254,22 +259,30 @@ With markdown, you just type.
 		* Slide show (also see RISE)
 
 
+[Download the example Jupyter Notebook from the gif](other_documents/MyNotebook.ipynb)
+
+[See the HTML webpage produced from the above notebook](other_documents/MyNotebook.html)
+
 
 ### RStudio
+
+**Animation of Producing HTML from RMarkdown**
+
+![](other_documents/RMarkdown.gif)
+
 
 * RStudio Tools [webpage with tutorial and docs](http://rmarkdown.rstudio.com/index.html)
 * Process:
 	* Knitr + Code insertions -> HTML files
-* Other Formats:
-	* Notebook (?)
-	* Slides and other Magic (?!)
+	* **See animation below**
 
 
-[RMarkdown.md File](other_documents/MyRMarkdown.Rmd)
 
-[HTML webpage produced with KnitR](other_documents/MyRMarkdown.html)
+[Download the Example of an RMarkdown.md File from the gif](other_documents/MyRMarkdown.Rmd)
 
-![](other_documents/RMarkdown.gif)
+[See the HTML webpage produced with the above file and KnitR](other_documents/MyRMarkdown.html)
+
+
 
 ### Matlab
 
@@ -287,7 +300,7 @@ With markdown, you just type.
 
 * The GitHub Guide outlines the steps involved
 * The process involves: 
-	* telling Zenodo to create an archived copy of your repository
+	* telling Zenodo to create an archived copy of one of your repositories.
 	* Telling Zenodo to create a citable DOI for your repository.
 
 
